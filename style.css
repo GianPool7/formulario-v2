@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Contenedor de las opciones : Reclamo - Quejas - Apelacion*/
+.contenedorRQA{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cajaContenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 10px;
+    gap: 20px;
+}
+
+.contenedorOpciones{
+    background-color: #5B7A94;
+    width: 20%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.contenedorOpciones label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Titulo*/
+
+.tituloOpciones{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorTitulo{
+    width: 50%;
+    display: flex;
+}
+.btnTitulo{
+    width: 10%;
+    padding: 10px;
+}
+.btnTitulo button{
+    /* outline: none; */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.tituloOpcion{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloOpcion h3{
+    color: orangered;
+    font-size: 30px;
+}
+
+/* GLOSARIO */
+
+.glosario{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorGlosario{
+    background-color: #5B7A94;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* Contenedor de preguntas: Usuarios - Abonado - Representante */
+
+.contenedorPreguntas{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+details{
+    width: 50%;
+    padding: 10px;
+}
+
+.contenedorDatosPersonales{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.datos{
+    margin: 5px;
+    padding: 15px;
+    width: 40%;
+}
+
+.representantecss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input[type="text"],input[type="email"]{
+    background-color: aliceblue;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+
+label{
+    width: 100%;
+}
+
+select{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+}
+
+/* Seleccionables */
+
+.seleccionarOpcciones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.cajasCentradas{
+    width: 50%;
+    padding: 10px;
+}
+
+.seleccionMultipleReclamo{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+}
+
+.materiaReclamable{
+    width: 50%;
+    padding: 10px;
+}
+
+.fc{
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .contenedorOpciones {
+        width: 100%;
+    }
+    .contenedorTitulo{
+        width: 70%;
+    }
+    .contenedorGlosario{
+        width: 70%;
+    }
+    details{
+        width: 70%;
+    }
+    .datos{
+        width: 100%;
+    }
+    .cajasCentradas{
+        width: 70%;
+    }
+    .seleccionMultipleReclamo{
+        width: 70%;
+    }
+}
